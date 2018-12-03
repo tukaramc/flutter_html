@@ -36,6 +36,8 @@ class Html extends StatelessWidget {
       width: width,
       child: DefaultTextStyle.merge(
         style: defaultTextStyle,
+        /////  chetan Added Align of text
+        textAlign: TextAlign.justify,
         child: Wrap(
           alignment: WrapAlignment.start,
           children: HtmlParser(
